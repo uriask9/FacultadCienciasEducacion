@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad de Ciencias de la Educación</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="css/img/logouas.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+<body>
+
+    <div class="bannertitulo">
+        <div class="container">
+            <div class="row">             
+                <img src="css/img/logo_uas.webp" alt="Logo universidad autónoma de sinaloa" height="150" class="imgUAS">
+    
+                <div class="titulo">
+                    Facultad de Ciencias de la <br>Educación Extensión Mochis               
+                </div>
+    
+                <img src="css/img/logo_fce.png" alt = "Logo de la facultad de ciencias de la educación" height="120" class="imgFacultad">
+                <img src="css/img/logo_administracion.webp" alt="Administración de la universidad autónoma de sinaloa 2025" height="120" class="imgVision">
+            </div>
+        </div>
+        <div class="containersubtitulo">
+            <div class="row rowcontainer">             
+                <div class="subtitulo">
+                    Universidad Autónoma de Sinaloa            
+                </div>
+            </div>
+        </div>
+
+        <div id="menuToggle">
+            <input id="checkbox" type="checkbox">
+            <label class="toggle" for="checkbox">
+            <div class="bar bar--arriba"></div>
+            <div class="bar bar--medio"></div>
+            <div class="bar bar--abajo"></div>
+            </label>
+        </div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li>Inicio</li>
+            <li>Nosotros
+                <ul class="sub-menu">
+                    <li>Historia</li>
+                    <li>Misión y visión</li>
+                    <li>Directorio</li>
+                    <li>Normatividad</li>
+                </ul>
+            </li>
+            <li>Noticias</li>
+            <li>Oferta Educativa
+                <ul class="sub-menu">
+                    <li>Licenciatura</li>
+                    <li>Posgrado</li>
+                    <li>Educación continua</li>
+                </ul>
+            </li>
+            <li>Departamentos
+                <ul class="sub-menu">
+                    <li>Control escolar</li>
+                    <li>Tutorías</li>
+                    <li>Servicio social</li>
+                    <li>Vinculación</li>
+                    <li>Titulación</li>
+                    <li>Prácticas profesionales</li>
+                </ul>
+            </li>
+            <li>Contacto</li>
+            <li>Ingreso
+                <ul class="sub-menu">
+                    <li>Portal de alumnos</li>
+                    <li>Aula virtual</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- Banner de la página -->
+    <div class="banner">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-item">
+                    <img src="css/img/carousel 1.jpg" alt="carousel 1">
+                    <div class="caption">
+                        Llama Candelario Ortiz a optimizar los recursos de la UAS en tiempos de austeridad, con planeación, transparencia y rendición de cuentas.
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="css/img/carousel 2.jpg" alt="carousel 2">
+                    <div class="caption">
+                        La UAS retomó la inquietud de su comunidad ante los hechos violentos en la Zona Centro y por ello decidió llevar a cabo las clases de manera virtual.
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="css/img/carousel 3.jpg" alt="carousel 3">
+                    <div class="caption">
+                        Investigación de estudiantes de la UAS revela estrategias de precios en El Buen Fin, con aumentos durante el sábado con respecto a los otros días.
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Historial de noticias -->
+    <div class="historial-noticias">
+        <h2 class="titulo-central">HISTORIAL DE NOTICIAS</h2>
+        <div class="noticias">
+            <div class="noticia">
+                <img src="css/img/noticia 1.jpg" alt="Noticia 1">
+                <div class="texto-noticia">
+                    <p>Comunicado Institucional</p>
+                    <p>Ante las diversas imágenes y videos que circulan a través de las redes sociales. </p>
+                </div>
+                <a href="https://dcs.uas.edu.mx/noticias" target="_blank"> Ver nota completa</a>
+            </div>
+
+            <div class="noticia">
+                <img src="css/img/tutorías.jpg" alt="Noticia 2">
+                <div class="texto-noticia">
+                    <p>Programa Institucional De Tutorías Plan De AcciónTutorial</p>
+                    <p>Hoy más que nunca, si tienes dificultades académicas, estamos para apoyarte, con toda confianza acércate al Departamento de Tutorías, estamos para ayudarte.</p>
+                </div>
+                <a href="https://dcs.uas.edu.mx/noticias" target="_blank"> Ver nota completa</a>
+            </div>
+
+            <div class="noticia">
+                <img src="css/img/noticia 3.jpg" alt="Noticia 3">
+                <div class="texto-noticia">
+                    <p>Con ponencias enfocadas a la prevención de adicciones, la UAS pone en marcha con AA y profesionales de la salud el Foro sobre Alcoholismo</p>
+                    <p>Como la institución socialmente responsable que es, la Universidad Autónoma de Sinaloa (UAS) trabaja arduamente en formar alumnos íntegros capaces de tomar de decisiones que impactan en su vida, por ello, desde la alianza entre la Unidad de Bienestar Universitario (UBU) y la Central Mexicana de Servicios Generales de Alcohólicos Anónimos AC.</p>
+                </div>
+                <a href="https://dcs.uas.edu.mx/noticias" target="_blank"> Ver nota completa</a>
+            </div>
+        </div>
+        <!--boton de ver mas noticias-->
+        <a class="btn" href="https://dcs.uas.edu.mx/noticias" target="_blank">Ver noticias anteriores</a>
+    </div>
+
+    <!-- Oferta Educativa -->
+    <div class="oferta-educativa">
+        <h2>OFERTA EDUCATIVA</h2>
+
+        <div class="imagenes-oferta">
+            <a class="img-hover-text" href="https://carreras.uas.edu.mx/Ciencias_de_la_Educacion.html" target="_blank"> 
+
+                <img src="css/img/cienciasdelaeducacion.jpg" alt="Ciencias de la educación">
+                
+                <figcaption>
+                <p>Licenciatura en Ciencias de la Educación</p>
+                </figcaption>
+                
+            </a>
+            <a class="img-hover-text" href="https://carreras.uas.edu.mx/Artes_Escenicas.html" target="_blank">
+
+                <img src="css/img/artesescenicas.jpg" alt="Artes Escénicas">
+                
+                <figcaption>
+                <p>Licenciatura en Artes Escénicas</p>
+                </figcaption>
+            
+            </a>
+            <a class="img-hover-text" href="https://carreras.uas.edu.mx/Musica.html" target="_blank"> 
+
+                <img src="css/img/musica_nvo.jpg" alt="Música">
+                
+                <figcaption>
+                <p>Licenciatura en Música</p>
+                </figcaption>
+            </a>
+        </div>
+        <a class="btn" href="https://carreras.uas.edu.mx/" target="_blank">Ver más ofertas</a>
+    </div>
+    <!-- Redes Sociales -->
+<div class="redes-sociales">
+    <h2>REDES SOCIALES</h2>
+    <p>Sigue nuestras redes sociales para más información</p>
+
+    <div class="redes-container">
+        <!-- Video de YouTube -->
+        <div class="video-container">
+            <iframe width="1080" height="608" src="https://www.youtube.com/embed/uvaT84a-x9o" 
+                title="Nueva oferta educativa ofrece la UAS para el Ciclo Escolar 2023-2024" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="social-section">
+        <h2>Facebook</h2>
+        <!-- Facebook Page Plugin -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" 
+                src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v17.0"></script>
+        <div class="fb-page" 
+            data-href="https://www.facebook.com/fefydeextmochis/?locale=es_LA" 
+            data-tabs="timeline" 
+            data-width="500" 
+            data-height="600" 
+            data-small-header="false" 
+            data-adapt-container-width="true" 
+            data-hide-cover="false" 
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/fefydeextmochis/?locale=es_LA" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/fefydeextmochis/?locale=es_LA">FEFyDE EXT Mochis</a>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <!-- Mapa de Google -->
+    <div class="mapa-de-google">
+
+        <h2>Encuéntranos</h2>
+
+        <p><img src="css/img/telefono.png" height="20" alt = "Telefono"> (668) - 1234 -567</p>
+        <p><img src="css/img/ubicacion.png" height="20" alt = "Direccion"> Blvd. Justicia Social s/n, Sin Nombre, 81223 Los Mochis, Sin.</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.9535125851367!2d-108.98333402625096!3d25.813190980966947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba299e1e4a6a11%3A0xbb4bd80cbb1629dd!2sFac.%20de%20Ciencias%20de%20la%20Educaci%C3%B3n!5e0!3m2!1ses-419!2smx!4v1731619327813!5m2!1ses-419!2smx" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+    <footer>
+        <img src="css/img/logo_uas.webp" alt="Logo universidad autónoma de sinaloa" height="60">
+        <p>Sursum Versus</p>
+        <img src="css/img/administracion_blanco.png" alt="Administración de la universidad autónoma de sinaloa 2025" height="60">
+    </footer>
+
+
+    <script src="js/eventos.js"></script>
+</body>
+</html>
